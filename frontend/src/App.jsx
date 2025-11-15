@@ -13,7 +13,7 @@ export default function App() {
   const [isLoading, setIsLoading] = useState(false)
   const [tableData, setTableData] = useState(null)
 
-  const API_BASE = 'http://localhost:5000/api'
+  const API_BASE = 'https://chatgpt-clone-g9ur.onrender.com/api'
 
   // Fetch sessions on mount
   useEffect(() => {
